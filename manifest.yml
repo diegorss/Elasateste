@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Elasa teste
+  host: Elasa-teste
+  disk_quota: 1024M
+  services:
+  - Elasa teste-cloudantNoSQLDB
+  - Elasa01
+  - Speech To Text-f6
+  - Text to Speech-xd
